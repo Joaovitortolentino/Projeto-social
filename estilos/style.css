@@ -16,7 +16,6 @@ body{
     background: url(../midias/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 150px;
 
 }
 
@@ -30,11 +29,20 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin: 100px 0px;
+    margin: 100px 0px 0px 0px;
     padding-bottom: 50px;
     background-repeat: no-repeat;
+    background-size: 80%;
 
     height: 627px;
     width: 311px;
     background-image: url(../midias/pacote-d013/imagens/frame-iphone.png);
+}
+
+iframe#tela{
+    margin: 65px 0px 0px 18px;
+    height: 376px;
+    width: 213px;
+
+    background-size: cover;
 }
