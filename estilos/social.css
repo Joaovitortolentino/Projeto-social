@@ -6,20 +6,18 @@
 }
 
 ::-webkit-scrollbar{
-    margin: 0px;
-    padding: 0px;
+    width: 0px;
+    height: 0px;
 }
 img{
-    display: block;
-    margin: auto;
-    background-size: cover;
+    width: 100vw;
 }
 
 a{
     display: block;
     background-color: rgb(231, 0, 0);
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     color: white;
